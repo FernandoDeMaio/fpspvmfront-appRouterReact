@@ -1,0 +1,118 @@
+{
+  "destinations": [
+    {
+      "name": "reactAppDest",
+      "url": "https://tpvReactApp.cfapps.us10-001.hana.ondemand.com",
+      "forwardAuthToken": true
+    }
+  ],
+    "VCAP_SERVICES": {
+        "connectivity": [
+          {
+            "binding_guid": "b9f769a9-7ee3-48c9-9f88-c45640dcd2df",
+            "binding_name": null,
+            "credentials": {
+              "clientid": "sb-clone898554bfe600442d92e499584f610543!b104511|connectivity!b23892",
+              "clientsecret": "b9f769a9-7ee3-48c9-9f88-c45640dcd2df$10hWPRQivRacAadt7ZwBG0FoZijebNoNE53TSIyYosw=",
+              "credential-type": "binding-secret",
+              "identityzone": "ssff-extensions-mercadod-gfw5gauz",
+              "onpremise_proxy_host": "connectivityproxy.internal.cf.us10-001.hana.ondemand.com",
+              "onpremise_proxy_http_port": "20003",
+              "onpremise_proxy_ldap_port": "20001",
+              "onpremise_proxy_port": "20003",
+              "onpremise_proxy_rfc_port": "20001",
+              "onpremise_socks5_proxy_port": "20004",
+              "tenantid": "efad793d-a6ac-4cb0-9d24-6519cf224b2e",
+              "tenantmode": "dedicated",
+              "token_service_domain": "authentication.us10.hana.ondemand.com",
+              "token_service_url": "https://ssff-extensions-mercadod-gfw5gauz.authentication.us10.hana.ondemand.com",
+              "uaadomain": "authentication.us10.hana.ondemand.com",
+              "url": "https://ssff-extensions-mercadod-gfw5gauz.authentication.us10.hana.ondemand.com",
+              "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtyPb5XnMzotGdVQH5QKQ\nwcO1LfhpU0etcdTink/J95p5w2TOloyQtr0iqGO65geJ8PLGaRcqIYQtKovz3U73\ndc8zpSdLSDghB/0lEQ+YPwxUT1VURwJ8KqcBmMix9GhNVnp51DSUrCA3KDwH0Ldu\nZYkYjoSn2UnxrfVJoyHjdNFpjlXHDj1yQcMhj/sVi48gLegpMuKZ0JOc45iYHIsu\n94Q9quJeatFBl0Ced47hc4p/arB/keRmLrFapQ/p3BMnL5g+sU7ZKF7JVgEqRXCG\n9e3oUz1Rjysan2U8h06S5stCCImbAHWkSsMeHJx273XM0Ll0cB7vMbHvdDv8T3t1\ncwIDAQAB\n-----END PUBLIC KEY-----",
+              "xsappname": "clone898554bfe600442d92e499584f610543!b104511|connectivity!b23892"
+            },
+            "instance_guid": "898554bf-e600-442d-92e4-99584f610543",
+            "instance_name": "meli-propuestavalor-backend-conn",
+            "label": "connectivity",
+            "name": "meli-propuestavalor-backend-conn",
+            "plan": "lite",
+            "provider": null,
+            "syslog_drain_url": null,
+            "tags": [
+              "connectivity",
+              "conn",
+              "connsvc"
+            ],
+            "volume_mounts": []
+          }
+        ],
+        "destination": [
+          {
+            "binding_guid": "872b283a-edfd-4138-916c-155b2c130be2",
+            "binding_name": null,
+            "credentials": {
+              "clientid": "sb-clone805a330ba00640f7a713bf9799093fcb!b104511|destination-xsappname!b62",
+              "clientsecret": "872b283a-edfd-4138-916c-155b2c130be2$L3j87iNl_9zvGTya0C34TvjQP5FwE7nCyFsWjQK5OKs=",
+              "credential-type": "binding-secret",
+              "identityzone": "ssff-extensions-mercadod-gfw5gauz",
+              "instanceid": "805a330b-a006-40f7-a713-bf9799093fcb",
+              "tenantid": "efad793d-a6ac-4cb0-9d24-6519cf224b2e",
+              "tenantmode": "dedicated",
+              "uaadomain": "authentication.us10.hana.ondemand.com",
+              "uri": "https://destination-configuration.cfapps.us10.hana.ondemand.com",
+              "url": "https://ssff-extensions-mercadod-gfw5gauz.authentication.us10.hana.ondemand.com",
+              "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtyPb5XnMzotGdVQH5QKQ\nwcO1LfhpU0etcdTink/J95p5w2TOloyQtr0iqGO65geJ8PLGaRcqIYQtKovz3U73\ndc8zpSdLSDghB/0lEQ+YPwxUT1VURwJ8KqcBmMix9GhNVnp51DSUrCA3KDwH0Ldu\nZYkYjoSn2UnxrfVJoyHjdNFpjlXHDj1yQcMhj/sVi48gLegpMuKZ0JOc45iYHIsu\n94Q9quJeatFBl0Ced47hc4p/arB/keRmLrFapQ/p3BMnL5g+sU7ZKF7JVgEqRXCG\n9e3oUz1Rjysan2U8h06S5stCCImbAHWkSsMeHJx273XM0Ll0cB7vMbHvdDv8T3t1\ncwIDAQAB\n-----END PUBLIC KEY-----",
+              "xsappname": "clone805a330ba00640f7a713bf9799093fcb!b104511|destination-xsappname!b62"
+            },
+            "instance_guid": "805a330b-a006-40f7-a713-bf9799093fcb",
+            "instance_name": "fpspvmback-dest",
+            "label": "destination",
+            "name": "fpspvmback-dest",
+            "plan": "lite",
+            "provider": null,
+            "syslog_drain_url": null,
+            "tags": [
+              "destination",
+              "conn",
+              "connsvc"
+            ],
+            "volume_mounts": []
+          }
+        ],
+        "xsuaa": [
+          {
+            "binding_guid": "293c36a1-55f8-4381-84cf-b954a23467a2",
+            "binding_name": null,
+            "credentials": {
+              "apiurl": "https://api.authentication.us10.hana.ondemand.com",
+              "clientid": "sb-fpspvmback!t104511",
+              "clientsecret": "SsBX77nW8341udeQ/H5AFVy+Pbs=",
+              "credential-type": "instance-secret",
+              "identityzone": "ssff-extensions-mercadod-gfw5gauz",
+              "identityzoneid": "efad793d-a6ac-4cb0-9d24-6519cf224b2e",
+              "sburl": "https://internal-xsuaa.authentication.us10.hana.ondemand.com",
+              "serviceInstanceId": "b0df6e49-7846-491d-9b9d-6c16fc3aa76b",
+              "subaccountid": "efad793d-a6ac-4cb0-9d24-6519cf224b2e",
+              "tenantid": "efad793d-a6ac-4cb0-9d24-6519cf224b2e",
+              "tenantmode": "dedicated",
+              "uaadomain": "authentication.us10.hana.ondemand.com",
+              "url": "https://ssff-extensions-mercadod-gfw5gauz.authentication.us10.hana.ondemand.com",
+              "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtyPb5XnMzotGdVQH5QKQ\nwcO1LfhpU0etcdTink/J95p5w2TOloyQtr0iqGO65geJ8PLGaRcqIYQtKovz3U73\ndc8zpSdLSDghB/0lEQ+YPwxUT1VURwJ8KqcBmMix9GhNVnp51DSUrCA3KDwH0Ldu\nZYkYjoSn2UnxrfVJoyHjdNFpjlXHDj1yQcMhj/sVi48gLegpMuKZ0JOc45iYHIsu\n94Q9quJeatFBl0Ced47hc4p/arB/keRmLrFapQ/p3BMnL5g+sU7ZKF7JVgEqRXCG\n9e3oUz1Rjysan2U8h06S5stCCImbAHWkSsMeHJx273XM0Ll0cB7vMbHvdDv8T3t1\ncwIDAQAB\n-----END PUBLIC KEY-----",
+              "xsappname": "fpspvmback!t104511",
+              "zoneid": "efad793d-a6ac-4cb0-9d24-6519cf224b2e"
+            },
+            "instance_guid": "b0df6e49-7846-491d-9b9d-6c16fc3aa76b",
+            "instance_name": "fpspvmback-auth",
+            "label": "xsuaa",
+            "name": "fpspvmback-auth",
+            "plan": "application",
+            "provider": null,
+            "syslog_drain_url": null,
+            "tags": [
+              "xsuaa"
+            ],
+            "volume_mounts": []
+          }
+        ]
+      }
+}

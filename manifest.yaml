@@ -1,0 +1,25 @@
+applications:
+
+    # Configuración APpRouter
+  - name: fpspvmapprouter-reactApp
+    path: approuter
+    routes:
+    - route: tpvReactAppRouter.cfapps.us10-001.hana.ondemand.com
+    memory: 128M
+    buildpacks:
+      - nodejs_buildpack
+    services:
+      - meli-propuestavalor-appRouter-auth
+      - meli-propuestavalor-backend-dest
+      - meli-propuestavalor-backend-conn
+    env:
+      destinations: >
+        [
+          {
+            "name": "reactAppDest",
+            "url":  "https://miapp3.cfapps.us10-001.hana.ondemand.com",
+            "forwardAuthToken": true
+          }
+        ]
+      
+  

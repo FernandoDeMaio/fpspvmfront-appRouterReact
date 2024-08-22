@@ -1,0 +1,18 @@
+{
+    "xsappname": "fpspvmapprouter-reactApp",
+    "tenant-mode": "dedicated",
+    "scopes": [
+      {
+          "name": "$XSAPPNAME.Viewer",
+          "description": "Viewer"
+      }
+  ], 
+  "role-templates": [
+    
+  ],
+  "role-collections": [],
+  "oauth2-configuration": {
+    "redirect-uris": [
+        "https://tpvreactapp.cfapps.us10-001.hana.ondemand.com/"
+  ]}
+}
